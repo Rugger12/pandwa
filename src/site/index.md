@@ -14,18 +14,18 @@ layout: layouts/base.njk
 - 다양한 분야와 이해관계자간 협업과 융합, 협력을 통함 기업의 성장 지원과 더불어 사회공헌활동으로서 예술과 ICT, 헬스케어의 만남, 가교 역할
 
 
-## Post pages
+//## Post pages
 
-관련 페이지가 앞으로 추가될 예정입니다.
+//관련 페이지가 앞으로 추가될 예정입니다.
 
-<ul class="listing">
-{%- for page in collections.post -%}
-  <li>
-    <a href="{{ page.url }}">{{ page.data.title }}</a> -
-    <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time>
-  </li>
-{%- endfor -%}
-</ul>
+//<ul class="listing">
+//{%- for page in collections.post -%}
+//  <li>
+//    <a href="{{ page.url }}">{{ page.data.title }}</a> -
+//    <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time>
+//  </li>
+//{%- endfor -%}
+//</ul>
 
 
 
