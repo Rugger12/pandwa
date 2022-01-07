@@ -1,27 +1,24 @@
 ---
-title: EleventyOne
-subtitle: A project scaffold for getting building with Eleventy quickly.<br /> Made by <a href="https://twitter.com/philhawksworth">Phil</a> for <a href="https://twitter.com/philhawksworth">Phil</a>, but perhaps you might also find it useful.
+title: Pan Digital Wellness Association
+subtitle: 디지털 웰니스 산업 진흥과 글로벌 생태계 조성을 통해 <br /> 건강하고 행복한 삶을 함께 만들어 갑니다.
 layout: layouts/base.njk
 ---
 
 
 ## This site is a starting point
 
-From this point we should already have:
+왜 PanDAW인가?
 
-- [Eleventy](https://11ty.io) with a skeleton site
-- A date format filter for Nunjucks based on [Luxon](https://moment.github.io/luxon)
-- A tiny CSS pipeline with PostCSS
-- A tiny inline JS pipeline. (<a href="#" class="btn-log">Test a console.log message</a>)
-- JS [search index](/search.json) generator
-- [Netlify Dev](https://www.netlify.com/products/dev) for testing [Netlify redirects](https://netlify.com/docs/redirects/)
-- Serverless (FaaS) development pipeline with [Netlify Dev](https://www.netlify.com/products/dev) and [Netlify Functions](https://www.netlify.com/products/functions)
-
+- 디지털 웰니스로 건강하고 행복한 삶을 함께 만들어 가는 Best Patner
+- 디지털이 이어주는 건강한 일상과 행복한 삶
+- Digital Wellness, Better Health, Better Life Together
+- 디지털 포용, 건강격차 해소, 디지털 웰니스로 함께 누리는(성장하는) 건강하고 행복한 공동체(삶)
+- 다양한 분야와 이해관계자간 협업과 융합, 협력을 통함 기업의 성장 지원과 더불어 사회공헌활동으로서 예술과 ICT, 헬스케어의 만남, 가교 역할
 
 
 ## Post pages
 
-The pages found in in the posts
+관련 페이지가 앞으로 추가될 예정입니다.
 
 <ul class="listing">
 {%- for page in collections.post -%}
@@ -31,59 +28,6 @@ The pages found in in the posts
   </li>
 {%- endfor -%}
 </ul>
-
-## Links from an external data source
-
-These links were sourced from [hawksworx.com](https://www.hawksworx.com/feed.json) at build time.
-
-<ul class="listing">
-{%- for item in hawksworx.entries.slice(0,5) -%}
-  <li>
-    <a href="{{ item.link }}">{{ item.title }}</a>
-  </li>
-{%- endfor -%}
-</ul>
-
-
-## Prerequisite
-
-- [Node and NPM](https://nodejs.org/)
-
-## Running locally
-
-```bash
-# install the dependencies
-npm install
-
-# External data sources can be stashed locally
-npm run seed
-
-# It will then be available locally for building with
-npm run start
-```
-
-## Add some Netlify helpers
-Netlify Dev adds the ability to use Netlify redirects, proxies, and serverless functions.
-
-```bash
-# install the Netlify CLI in order to get Netlify Dev
-npm install -g netlify-cli
-
-# run a local server with some added Netlify sugar in front of Eleventy
-netlify dev
-```
-
-A serverless functions pipeline is included via Netlify Dev. By running `netlify dev` you'll be able to execute any of your serverless functions directly like this:
-
-- [/.netlify/functions/hello](/.netlify/functions/hello)
-- [/.netlify/functions/fetch-joke](/.netlify/functions/fetch-joke)
-
-### Redirects and proxies
-
-Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
-
-- [/api/hello](/api/hello)
-- [/api/fetch-joke](/api/fetch-joke)
 
 
 
