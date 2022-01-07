@@ -3,10 +3,9 @@ title: PanDWA
 layout: layouts/base.njk
 subtitle: Pan Digital Wellness Association
 ---
-<img src="https://github.com/Rugger12/pandwa/blob/master/src/site/images/pandwa_logo.jpg?raw=true" width="600" alt="service poster">
-
-“디지털 웰니스 산업 진흥과 글로벌 생테계 조성을 통해 
+“디지털 웰니스 산업 진흥과 글로벌 생테계 조성을 통해<br> 
 건강하고 행복한 삶을 함께 만들어 갑니다”
+<img src="https://github.com/Rugger12/pandwa/blob/master/src/site/images/pandwa_logo.jpg?raw=true" width="600" alt="service poster">
 
 ## 비전
 
