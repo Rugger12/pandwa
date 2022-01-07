@@ -1,5 +1,5 @@
 ---
-title: PanDWA
+title: PanDWA<img src="https://github.com/Rugger12/pandwa/blob/master/src/site/images/pandwa_logo.png?raw=true" width="250" alt="service poster">
 subtitle: 디지털 웰니스 산업 진흥과 글로벌 생태계 조성을 통해 <br /> 건강하고 행복한 삶을 함께 만들어 갑니다.
 layout: layouts/base.njk
 ---
