@@ -1,13 +1,11 @@
 ---
-title: Pan Digital Wellness Association
+title: PanDWA
 subtitle: 디지털 웰니스 산업 진흥과 글로벌 생태계 조성을 통해 <br /> 건강하고 행복한 삶을 함께 만들어 갑니다.
 layout: layouts/base.njk
 ---
-
-
 ## This site is a starting point
 
-왜 PanDAW인가?
+왜 PanDWA (Pan Digital Wellness Association) 인가? 
 
 - 디지털 웰니스로 건강하고 행복한 삶을 함께 만들어 가는 Best Patner
 - 디지털이 이어주는 건강한 일상과 행복한 삶
